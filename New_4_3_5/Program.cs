@@ -23,6 +23,15 @@
                 Console.Write(ch + " ");
             }
             Console.WriteLine("\nПоследняя буква вашего имени: {0}", name[name.Length - 1]);
+
+            // Task 4.3.7
+            //for
+            Console.Write("\nYour name letter by letter in reverse order (for): ");
+            for (int i = name.Length - 1; i != -1; i--) // Условие в уроке i >= 0
+            {
+                Console.Write(name[i] + " ");
+            }
+
             Console.ReadKey(); 
 
 
